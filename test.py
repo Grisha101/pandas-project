@@ -5,8 +5,8 @@ from OpenGL.GLU import *
 import pybullet as p
 import pybullet_data
 import time
+   
 
-# Ініціалізація PyGame
 pygame.init()
 display = (800, 600)
 pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
